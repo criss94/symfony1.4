@@ -1,0 +1,29 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    #title:        symfony project
+    #description:  symfony project
+    #keywords:     symfony, project
+    #language:     en
+    #robots:       index, follow
+
+  stylesheets:    [bootstrap.min.css]
+
+  javascripts:    [jquery.min.js, popper.min.js, bootstrap.min.js]
+
+  has_layout:     true
+  layout:         layout
+  
+#estos pedian ser creado dentro del modulo correspondiente, pero no me los toma, si lo pongo en el view del front, si me lo toma
+indexSuccess:
+  metas: 
+    title: listado de productos disponibles
+    
+showSuccess:
+  metas: 
+    title: detalle del producto

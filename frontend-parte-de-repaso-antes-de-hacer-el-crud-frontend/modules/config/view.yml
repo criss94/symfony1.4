@@ -1,0 +1,4 @@
+#title para las vistas, este archivo se debe crear en cada modulo, por defecto no se crean solos
+showSuccess:
+  metas: 
+    title: detalle del producto

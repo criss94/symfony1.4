@@ -1,0 +1,25 @@
+#tabla categorias
+Categories:
+  #actAs: { Timestampable: ~ }
+  columns:
+    cat_name: {type: string(255), notnull: true, unique: true}
+    
+#tabla productos
+Products:
+  actAs:
+    #este me toma el campo prd_name y lo transforma en una url amigable
+    Sluggable:
+      fields: [prd_name]
+  #esta parte es para darle el nombre al campo donde  se almacenara la url amigable
+  columns:
+    prd_slug:
+      type: string(255)
+      notnull: true
+    prd_name: {type: string(255), notnull: true, unique: true}
+    prd_description: {type: string(10000), notnull: true,}
+    prd_price: {type: integer, notnull: true}
+    cat_id: {type: integer, notnull: true}
+    prd_created: {type: string(100), notnull: true}
+    prd_photo: {type: string(255), notnull: true}
+  relations:
+    Categories: { onDelete: CASCADE, local: cat_id, foreign: id, foreignAlias:  prd_cat_name} 

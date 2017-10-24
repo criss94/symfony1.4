@@ -1,0 +1,47 @@
+# apps/frontend/config/routing.yml
+#esta ruta 'job' nos generara automaticamente las 7 rutas sfDoctrineRoute
+job:
+  class:   sfDoctrineRouteCollection
+  options: { model: JobeetJob }
+ 
+job_show_user:
+  url:     /job/:company_slug/:location_slug/:id/:position_slug
+  class:   sfDoctrineRoute
+  options: { model: JobeetJob, type: object }
+  param:   { module: job, action: show }
+  requirements:
+    id: \d+
+    sf_method: [get]
+ 
+# default rules
+homepage:
+  url:   /
+  param: { module: job, action: index }
+ 
+#default_index:
+#  url:   /:module
+#  param: { action: index }
+
+contacto:
+  url: /contacto-de-mi-empresa
+  param: { module: category, action: contacto }
+
+#default:
+#  url:   /:module/:action/* 
+category:
+  url: /category/:slug
+  class: sfDoctrineRoute
+  param: {module: category, action: show}
+  options: {model: JobeetCategory, type: object}
+  
+sf_guard_signin:
+  url:   /login
+  param: { module: sfGuardAuth, action: signin }
+
+sf_guard_signout:
+  url:   /logout
+  param: { module: sfGuardAuth, action: signout }
+
+sf_guard_password:
+  url:   /request_password
+  param: { module: sfGuardAuth, action: password }

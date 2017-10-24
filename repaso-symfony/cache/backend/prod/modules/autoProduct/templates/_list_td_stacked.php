@@ -1,0 +1,3 @@
+<td colspan="9">
+  <?php echo __('%%id%% - %%prd_slug%% - %%prd_name%% - %%prd_description%% - %%prd_price%% - %%cat_id%% - %%prd_created%% - %%prd_photo%% - %%slug%%', array('%%id%%' => link_to($Products->getId(), 'products_product_edit', $Products), '%%prd_slug%%' => $Products->getPrdSlug(), '%%prd_name%%' => $Products->getPrdName(), '%%prd_description%%' => $Products->getPrdDescription(), '%%prd_price%%' => $Products->getPrdPrice(), '%%cat_id%%' => $Products->getCatId(), '%%prd_created%%' => $Products->getPrdCreated(), '%%prd_photo%%' => $Products->getPrdPhoto(), '%%slug%%' => $Products->getSlug()), 'messages') ?>
+</td>

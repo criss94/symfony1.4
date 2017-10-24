@@ -1,0 +1,76 @@
+products_product:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Products
+    module:               product
+    prefix_path:          /product
+    column:               id
+    with_wildcard_routes: true
+
+#products_product:
+ # class: sfDoctrineRouteCollection
+  #options:
+   # model:                Products
+   # module:               product
+   # prefix_path:          /product
+   # column:               id
+   # with_wildcard_routes: true
+
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+#homepage:
+  #url:   /
+  #param: { module: default, action: index }
+
+# generic rules
+# please, remove them by adding more specific rules
+#default_index:
+  #url:   /:module
+  #param: { action: index }
+
+#default:
+  #url:   /:module/:action/*
+
+  
+products:
+  url: /
+  param: { module: product, action: index }
+   
+categories:
+  url: /categories
+  param: { module: category, action: index }
+
+contact: 
+  url: /contact
+  param: { module: contact, action: index}
+
+contact_send: 
+  url: /sendMail
+  param: { module: contact, action: index}
+  requirements:
+    sf_method: [post]
+  
+#CRUD PERZONALIZADO FRONTEND
+create_product:
+  url: /product/create
+  param: { module: product, action: create }
+  
+store_product:
+  url: /product/store
+  param: { module: product, action: store }
+
+show_product:
+  url: /product/detail/:prd_slug
+  class: sfDoctrineRoute
+  options: { model: Products, type: object }
+  param: { module: product, action: show }
+  #requirements:
+    #sf_method: [get]
+    
+show_category:
+  url: /category/detail/:id
+  class: sfDoctrineRoute
+  options: { model: Categories, type: object }
+  param: { module: category, action: show }
