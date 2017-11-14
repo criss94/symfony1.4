@@ -1,0 +1,88 @@
+sf_guard_permission:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                sfGuardPermission
+    module:               sf_guard_permission
+    prefix_path:          /sf_guard_permission
+    column:               id
+    with_wildcard_routes: true
+
+sf_guard_user:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                sfGuardUser
+    module:               sf_guard_user
+    prefix_path:          /sf_guard_user
+    column:               id
+    with_wildcard_routes: true
+
+sf_guard_group:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                sfGuardGroup
+    module:               sf_guard_group
+    prefix_path:          /sf_guard_group
+    column:               id
+    with_wildcard_routes: true
+
+#roles_categoria:
+ # class: sfDoctrineRouteCollection
+  #options:
+   # model:                Roles_categoria
+    #module:               rolesCategoria
+    #prefix_path:          /rolesCategoria
+    #prefix_path:          /role/category
+    #column:               id
+    #with_wildcard_routes: true
+
+botones:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Botones
+    module:               button
+    prefix_path:          /button
+    column:               id
+    with_wildcard_routes: true
+
+categorias:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Categorias
+    module:               category
+    prefix_path:          /category
+    column:               id
+    with_wildcard_routes: true
+
+#reemplaza la uri generada por el admin generator
+#sf_guard_user:
+ # url:   /usuarios
+  #param: { module: sfGuardUser, action: list }
+
+
+#roles de categorias
+new_role:
+  url: /add/role
+  param: { module: rolesCategoria, action: create }
+  
+store_role_category:
+  url: /save/role/category
+  param: { module: rolesCategoria, action: store }
+  
+edit_role:
+  url: /edit/role/id/:id
+  param: { module: rolesCategoria, action: edit }
+  class: sfDoctrineRoute
+  options: { model: Roles_categoria, type: object }
+  
+update_role_category:
+  url: /update/role/category
+  param: { module: rolesCategoria, action: update }
+
+
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+homepage:
+  url:   /
+  param: { module: default, action: index }

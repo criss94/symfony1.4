@@ -1,0 +1,15 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+
+# default values
+#all:
+all:
+  sf_guard_plugin:
+    routes_register: false
+
+    # con estas dos parametros puedo redirigir hacia otro lado al usuario una ves logueado o deslogeado, cambiando haci su comportamiento por default
+    #success_signin_url:      @my_route?param=value # el plugin usa la referencia como defecto
+    #success_signout_url:     module/action         # el plugin usa la referencia como defecto
+    
+default:
+  is_secure: true

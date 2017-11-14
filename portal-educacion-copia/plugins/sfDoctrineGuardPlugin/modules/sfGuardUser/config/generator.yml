@@ -1,0 +1,74 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           sfGuardUser
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          sf_guard_user
+    with_doctrine_route:   true
+
+    config:
+      actions:
+        _list: { label: volver al listado }
+        
+      fields:
+        first_name: 
+          label: "Nombre"
+          attributes: 
+            class: form-control
+            
+        last_name: 
+          label: "Apellido"
+          attributes: 
+            class: form-control
+            
+        email_address: 
+          label: "Email"
+          attributes: 
+            class: form-control
+        username: 
+          label: "Usuario"
+          attributes: 
+            class: form-control
+        algorithm: ~
+        password:
+          label: "Contraseña"
+          attributes: 
+            class: form-control
+        password_again:
+          label: "Repetir contraseña"
+          attributes: 
+            class: form-control
+        is_active: { label: "Activo" }
+        is_super_admin: { label: "Es administrador?" }
+        groups_list: 
+          label: "Lista de grupos"
+          attributes: 
+            class: form-control
+        permissions_list:
+          label: "Lista de permisos"
+          attributes: 
+            class: form-control
+
+      list:
+        #object_actions:
+        title: Lista de Usuarios
+        display: [=username, last_login, created_at, updated_at, last_login]
+        #params: { class: 'alert alert-danger' }
+        
+      form:
+        class: sfGuardUserAdminForm
+        display:
+          "User": [first_name, last_name, email_address, username, password, password_again]
+          "Permissions and groups": [is_active, is_super_admin, groups_list, permissions_list]
+          #NONE: [last_login, created_at, updated_at, last_login]
+          #Editable: [=username, last_login, created_at, updated_at, last_login]
+
+      edit:
+        title: Editando al usuario "%%username%%"
+
+      new:
+        title: Alta de un nuevo Usuario
