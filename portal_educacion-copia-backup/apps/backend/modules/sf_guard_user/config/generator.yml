@@ -1,0 +1,69 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           sfGuardUser
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          sf_guard_user
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: 
+        _list: { label: volver }
+        
+      fields:  
+        first_name:
+         label: "Nombre"
+         attributes:
+            class: form-control
+        last_name: 
+          label: "Apellido"
+          attributes:
+            class: form-control
+        email_address: 
+          label: "Email"
+          attributes:
+            class: form-control
+        username:
+          label: "Usuario"
+          attributes:
+            class: form-control
+        password: 
+          label: "Contraseña"
+          attributes:
+            class: form-control
+        is_active: 
+          label: "Activo"
+          attributes:
+            class: form-control
+        is_super_admin: 
+          label: "Es administrador?"
+          attributes:
+            class: form-control
+        created_at: 
+          label: "Creado el"
+          attributes:
+            class: form-control
+        groups_list:
+          label: "Grupos"
+          attributes:
+            class: form-control
+        permissions_list:
+          label: "Permisos"
+          attributes:
+            class: form-control
+        
+      list:   
+        title: Usuarios
+        max_per_page: 5
+        
+      filter: ~
+      form: ~
+      edit:
+        title: "Edicion de %%first_name%%"
+      new:
+        title: Alta de un nuevo Usuario

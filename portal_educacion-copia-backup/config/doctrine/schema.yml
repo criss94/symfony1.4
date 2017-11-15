@@ -1,0 +1,30 @@
+#tabla categorias
+Categorias:
+  columns:
+    cat_nombre: { type: string(255), notnull: true, unique: true }
+    cat_posicion: { type: integer, notnull: true }
+  relations:
+    Botones:
+      local: id
+      foreign: btn_cat_id
+      type: many
+    
+#tabla botones
+Botones:
+  columns:
+    btn_nombre: { type: string(255), notnull: true, unique: true }
+    btn_link: { type: string(255), notnull: true }
+    btn_imagen: { type: string(255), notnull: true }
+    btn_activo: { type: integer, notnull: true }
+    btn_cat_id: { type: integer, notnull: true }
+  relations:
+    Categorias: { onDelete: CASCADE, local: btn_cat_id, foreign: id, type: one, foreignType: many }
+    
+#roles categorias
+RolesCategorias:
+  columns:
+    rol_cat_id: { type: integer }
+    rol_group_id: { type: integer }
+  relations:
+    Categorias: { onDelete: CASCADE, local: rol_cat_id, foreign: id, foreignAlias: rol_cat_id }
+    sfGuardGroup: { onDelete: CASCADE, local: rol_group_id, foreign: id, foreignAlias: rol_group_id }

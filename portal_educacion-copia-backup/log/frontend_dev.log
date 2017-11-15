@@ -1,0 +1,626 @@
+Oct 25 12:28:34 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Oct 25 12:28:34 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Oct 25 12:28:34 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Oct 25 12:28:34 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Oct 25 12:28:34 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Oct 25 12:28:34 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Oct 25 12:28:34 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Oct 25 12:28:34 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Oct 25 12:28:34 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Oct 25 12:28:34 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Oct 25 12:28:34 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Oct 25 12:28:34 symfony [info] {sfPatternRouting} Match route "sf_guard_signin" (/login) for /login with parameters array (  'module' => 'sfGuardAuth',  'action' => 'signin',)
+Oct 25 12:28:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 25 12:28:35 symfony [info] {sfFilterChain} Executing filter "sfGuardRememberMeFilter"
+Oct 25 12:28:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 25 12:28:35 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignin()"
+Oct 25 12:28:35 symfony [info] {sfPHPView} Render "/var/www/portal-educacion/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/signinSuccess.php"
+Oct 25 12:28:35 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/_signin_form.php"
+Oct 25 12:28:35 symfony [err] {InvalidArgumentException} Widget "email_address" does not exist.
+Oct 25 12:28:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 401 Unauthorized"
+Oct 25 12:28:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 25 12:28:35 symfony [info] {sfWebDebugLogger} Configuration 436.51 ms (9)
+Oct 25 12:28:35 symfony [info] {sfWebDebugLogger} Factories 255.61 ms (1)
+Oct 25 12:28:35 symfony [info] {sfWebDebugLogger} Action "sfGuardAuth/signin" 3.50 ms (1)
+Oct 25 12:28:35 symfony [info] {sfWebDebugLogger} View "Success" for "sfGuardAuth/signin" 82.20 ms (1)
+Oct 25 12:28:35 symfony [info] {sfWebDebugLogger} Partial "sfGuardAuth/_signin_form" 32.13 ms (1)
+Oct 25 12:29:01 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Oct 25 12:29:01 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Oct 25 12:29:01 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Oct 25 12:29:01 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Oct 25 12:29:01 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Oct 25 12:29:01 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Oct 25 12:29:01 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Oct 25 12:29:01 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Oct 25 12:29:01 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Oct 25 12:29:01 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Oct 25 12:29:01 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Oct 25 12:29:01 symfony [info] {sfPatternRouting} Match route "sf_guard_signin" (/login) for /login with parameters array (  'module' => 'sfGuardAuth',  'action' => 'signin',)
+Oct 25 12:29:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 25 12:29:01 symfony [info] {sfFilterChain} Executing filter "sfGuardRememberMeFilter"
+Oct 25 12:29:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 25 12:29:01 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignin()"
+Oct 25 12:29:01 symfony [info] {sfPHPView} Render "/var/www/portal-educacion/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/signinSuccess.php"
+Oct 25 12:29:01 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/_signin_form.php"
+Oct 25 12:29:01 symfony [err] {InvalidArgumentException} Widget "email_address" does not exist.
+Oct 25 12:29:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 401 Unauthorized"
+Oct 25 12:29:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 25 12:29:01 symfony [info] {sfWebDebugLogger} Configuration 0.75 ms (9)
+Oct 25 12:29:01 symfony [info] {sfWebDebugLogger} Factories 61.64 ms (1)
+Oct 25 12:29:01 symfony [info] {sfWebDebugLogger} Action "sfGuardAuth/signin" 3.40 ms (1)
+Oct 25 12:29:01 symfony [info] {sfWebDebugLogger} View "Success" for "sfGuardAuth/signin" 43.38 ms (1)
+Oct 25 12:29:01 symfony [info] {sfWebDebugLogger} Partial "sfGuardAuth/_signin_form" 34.85 ms (1)
+Oct 25 12:29:04 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Oct 25 12:29:04 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Oct 25 12:29:04 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Oct 25 12:29:04 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Oct 25 12:29:04 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Oct 25 12:29:04 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Oct 25 12:29:04 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Oct 25 12:29:04 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Oct 25 12:29:04 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Oct 25 12:29:04 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Oct 25 12:29:04 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Oct 25 12:29:04 symfony [info] {sfPatternRouting} Match route "sf_guard_signin" (/login) for /login with parameters array (  'module' => 'sfGuardAuth',  'action' => 'signin',)
+Oct 25 12:29:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 25 12:29:04 symfony [info] {sfFilterChain} Executing filter "sfGuardRememberMeFilter"
+Oct 25 12:29:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 25 12:29:04 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignin()"
+Oct 25 12:29:04 symfony [info] {sfPHPView} Render "/var/www/portal-educacion/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/signinSuccess.php"
+Oct 25 12:29:04 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/_signin_form.php"
+Oct 25 12:29:04 symfony [err] {InvalidArgumentException} Widget "email_address" does not exist.
+Oct 25 12:29:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 401 Unauthorized"
+Oct 25 12:29:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 25 12:29:04 symfony [info] {sfWebDebugLogger} Configuration 0.85 ms (9)
+Oct 25 12:29:04 symfony [info] {sfWebDebugLogger} Factories 51.50 ms (1)
+Oct 25 12:29:04 symfony [info] {sfWebDebugLogger} Action "sfGuardAuth/signin" 3.60 ms (1)
+Oct 25 12:29:04 symfony [info] {sfWebDebugLogger} View "Success" for "sfGuardAuth/signin" 44.78 ms (1)
+Oct 25 12:29:04 symfony [info] {sfWebDebugLogger} Partial "sfGuardAuth/_signin_form" 37.66 ms (1)
+Oct 25 12:29:43 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Oct 25 12:29:43 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Oct 25 12:29:43 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Oct 25 12:29:43 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Oct 25 12:29:43 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Oct 25 12:29:43 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Oct 25 12:29:43 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Oct 25 12:29:43 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Oct 25 12:29:43 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Oct 25 12:29:43 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Oct 25 12:29:43 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Oct 25 12:29:43 symfony [info] {sfPatternRouting} Match route "sf_guard_signin" (/login) for /login with parameters array (  'module' => 'sfGuardAuth',  'action' => 'signin',)
+Oct 25 12:29:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 25 12:29:43 symfony [info] {sfFilterChain} Executing filter "sfGuardRememberMeFilter"
+Oct 25 12:29:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 25 12:29:43 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignin()"
+Oct 25 12:29:43 symfony [info] {sfPHPView} Render "/var/www/portal-educacion/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/signinSuccess.php"
+Oct 25 12:29:43 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/_signin_form.php"
+Oct 25 12:29:43 symfony [info] {sfPHPView} Decorate content with "/var/www/portal-educacion/apps/frontend/templates/layout.php"
+Oct 25 12:29:43 symfony [info] {sfPHPView} Render "/var/www/portal-educacion/apps/frontend/templates/layout.php"
+Oct 25 12:29:43 symfony [info] {main} Get slot "title"
+Oct 25 12:29:43 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/apps/frontend/modules/home/templates/_partials/header.php"
+Oct 25 12:29:43 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/apps/frontend/modules/home/templates/_partials/nav.php"
+Oct 25 12:29:43 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/apps/frontend/modules/home/templates/_partials/footer.php"
+Oct 25 12:29:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 401 Unauthorized"
+Oct 25 12:29:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 25 12:29:43 symfony [info] {sfWebDebugLogger} Configuration 1.52 ms (9)
+Oct 25 12:29:43 symfony [info] {sfWebDebugLogger} Factories 46.13 ms (1)
+Oct 25 12:29:43 symfony [info] {sfWebDebugLogger} Action "sfGuardAuth/signin" 5.47 ms (1)
+Oct 25 12:29:43 symfony [info] {sfWebDebugLogger} View "Success" for "sfGuardAuth/signin" 35.95 ms (1)
+Oct 25 12:29:43 symfony [info] {sfWebDebugLogger} Partial "sfGuardAuth/_signin_form" 2.65 ms (1)
+Oct 25 12:29:43 symfony [info] {sfWebDebugLogger} Partial "home/_partials/header" 0.23 ms (1)
+Oct 25 12:29:43 symfony [info] {sfWebDebugLogger} Partial "home/_partials/nav" 0.20 ms (1)
+Oct 25 12:29:43 symfony [info] {sfWebDebugLogger} Partial "home/_partials/footer" 0.19 ms (1)
+Oct 25 12:29:43 symfony [info] {sfWebResponse} Send content (45004 o)
+Oct 25 12:29:43 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Oct 25 12:29:43 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Oct 25 12:29:43 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Oct 25 12:29:43 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Oct 25 12:29:43 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Oct 25 12:29:43 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Oct 25 12:29:43 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Oct 25 12:29:43 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Oct 25 12:29:43 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Oct 25 12:29:43 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Oct 25 12:29:43 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Oct 25 12:29:43 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/bac-header-2.png" (/).
+Oct 25 12:29:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Oct 25 12:29:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 25 12:29:43 symfony [info] {sfWebDebugLogger} Configuration 0.28 ms (5)
+Oct 25 12:29:43 symfony [info] {sfWebDebugLogger} Factories 37.19 ms (1)
+Oct 25 12:29:57 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Oct 25 12:29:57 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Oct 25 12:29:57 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Oct 25 12:29:57 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Oct 25 12:29:57 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Oct 25 12:29:57 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Oct 25 12:29:57 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Oct 25 12:29:57 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Oct 25 12:29:57 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Oct 25 12:29:57 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Oct 25 12:29:57 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Oct 25 12:29:57 symfony [info] {sfPatternRouting} Match route "sf_guard_signin" (/login) for /login with parameters array (  'module' => 'sfGuardAuth',  'action' => 'signin',)
+Oct 25 12:29:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 25 12:29:57 symfony [info] {sfFilterChain} Executing filter "sfGuardRememberMeFilter"
+Oct 25 12:29:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 25 12:29:57 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignin()"
+Oct 25 12:29:57 symfony [info] {sfPHPView} Render "/var/www/portal-educacion/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/signinSuccess.php"
+Oct 25 12:29:57 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/_signin_form.php"
+Oct 25 12:29:57 symfony [info] {sfPHPView} Decorate content with "/var/www/portal-educacion/apps/frontend/templates/layout.php"
+Oct 25 12:29:57 symfony [info] {sfPHPView} Render "/var/www/portal-educacion/apps/frontend/templates/layout.php"
+Oct 25 12:29:57 symfony [info] {main} Get slot "title"
+Oct 25 12:29:57 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/apps/frontend/modules/home/templates/_partials/header.php"
+Oct 25 12:29:57 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/apps/frontend/modules/home/templates/_partials/nav.php"
+Oct 25 12:29:57 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/apps/frontend/modules/home/templates/_partials/footer.php"
+Oct 25 12:29:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 25 12:29:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 25 12:29:57 symfony [info] {sfWebDebugLogger} Configuration 0.75 ms (9)
+Oct 25 12:29:57 symfony [info] {sfWebDebugLogger} Factories 35.80 ms (1)
+Oct 25 12:29:57 symfony [info] {sfWebDebugLogger} Action "sfGuardAuth/signin" 4.17 ms (1)
+Oct 25 12:29:57 symfony [info] {sfWebDebugLogger} View "Success" for "sfGuardAuth/signin" 20.01 ms (1)
+Oct 25 12:29:57 symfony [info] {sfWebDebugLogger} Partial "sfGuardAuth/_signin_form" 1.79 ms (1)
+Oct 25 12:29:57 symfony [info] {sfWebDebugLogger} Partial "home/_partials/header" 0.23 ms (1)
+Oct 25 12:29:57 symfony [info] {sfWebDebugLogger} Partial "home/_partials/nav" 1.87 ms (1)
+Oct 25 12:29:57 symfony [info] {sfWebDebugLogger} Partial "home/_partials/footer" 0.75 ms (1)
+Oct 25 12:29:57 symfony [info] {sfWebResponse} Send content (45949 o)
+Oct 25 12:29:57 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Oct 25 12:29:57 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Oct 25 12:29:57 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Oct 25 12:29:57 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Oct 25 12:29:57 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Oct 25 12:29:57 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Oct 25 12:29:57 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Oct 25 12:29:57 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Oct 25 12:29:57 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Oct 25 12:29:57 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Oct 25 12:29:57 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Oct 25 12:29:57 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/bac-header-2.png" (/).
+Oct 25 12:29:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Oct 25 12:29:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 25 12:29:57 symfony [info] {sfWebDebugLogger} Configuration 0.27 ms (5)
+Oct 25 12:29:57 symfony [info] {sfWebDebugLogger} Factories 27.95 ms (1)
+Oct 25 12:30:07 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Oct 25 12:30:07 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Oct 25 12:30:07 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Oct 25 12:30:07 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Oct 25 12:30:07 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Oct 25 12:30:07 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Oct 25 12:30:07 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Oct 25 12:30:07 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Oct 25 12:30:07 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Oct 25 12:30:07 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Oct 25 12:30:07 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Oct 25 12:30:07 symfony [info] {sfPatternRouting} Match route "sf_guard_signin" (/login) for /login with parameters array (  'module' => 'sfGuardAuth',  'action' => 'signin',)
+Oct 25 12:30:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 25 12:30:07 symfony [info] {sfFilterChain} Executing filter "sfGuardRememberMeFilter"
+Oct 25 12:30:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 25 12:30:07 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignin()"
+Oct 25 12:30:07 symfony [info] {sfPHPView} Render "/var/www/portal-educacion/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/signinSuccess.php"
+Oct 25 12:30:07 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/_signin_form.php"
+Oct 25 12:30:07 symfony [info] {sfPHPView} Decorate content with "/var/www/portal-educacion/apps/frontend/templates/layout.php"
+Oct 25 12:30:07 symfony [info] {sfPHPView} Render "/var/www/portal-educacion/apps/frontend/templates/layout.php"
+Oct 25 12:30:07 symfony [info] {main} Get slot "title"
+Oct 25 12:30:07 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/apps/frontend/modules/home/templates/_partials/header.php"
+Oct 25 12:30:07 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/apps/frontend/modules/home/templates/_partials/nav.php"
+Oct 25 12:30:07 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/apps/frontend/modules/home/templates/_partials/footer.php"
+Oct 25 12:30:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 401 Unauthorized"
+Oct 25 12:30:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 25 12:30:07 symfony [info] {sfWebDebugLogger} Configuration 0.74 ms (9)
+Oct 25 12:30:07 symfony [info] {sfWebDebugLogger} Factories 40.54 ms (1)
+Oct 25 12:30:07 symfony [info] {sfWebDebugLogger} Action "sfGuardAuth/signin" 6.21 ms (1)
+Oct 25 12:30:07 symfony [info] {sfWebDebugLogger} View "Success" for "sfGuardAuth/signin" 42.26 ms (1)
+Oct 25 12:30:07 symfony [info] {sfWebDebugLogger} Partial "sfGuardAuth/_signin_form" 13.07 ms (1)
+Oct 25 12:30:07 symfony [info] {sfWebDebugLogger} Partial "home/_partials/header" 0.22 ms (1)
+Oct 25 12:30:07 symfony [info] {sfWebDebugLogger} Partial "home/_partials/nav" 0.64 ms (1)
+Oct 25 12:30:07 symfony [info] {sfWebDebugLogger} Partial "home/_partials/footer" 0.20 ms (1)
+Oct 25 12:30:07 symfony [info] {sfWebResponse} Send content (44973 o)
+Oct 25 12:30:07 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Oct 25 12:30:07 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Oct 25 12:30:07 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Oct 25 12:30:07 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Oct 25 12:30:07 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Oct 25 12:30:07 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Oct 25 12:30:07 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Oct 25 12:30:07 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Oct 25 12:30:07 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Oct 25 12:30:07 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Oct 25 12:30:07 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Oct 25 12:30:07 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/bac-header-2.png" (/).
+Oct 25 12:30:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Oct 25 12:30:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 25 12:30:07 symfony [info] {sfWebDebugLogger} Configuration 0.27 ms (5)
+Oct 25 12:30:07 symfony [info] {sfWebDebugLogger} Factories 58.67 ms (1)
+Oct 25 12:30:11 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Oct 25 12:30:11 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Oct 25 12:30:11 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Oct 25 12:30:11 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Oct 25 12:30:11 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Oct 25 12:30:11 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Oct 25 12:30:11 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Oct 25 12:30:11 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Oct 25 12:30:11 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Oct 25 12:30:11 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Oct 25 12:30:11 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Oct 25 12:30:11 symfony [info] {sfPatternRouting} Match route "sf_guard_signin" (/login) for /login with parameters array (  'module' => 'sfGuardAuth',  'action' => 'signin',)
+Oct 25 12:30:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 25 12:30:11 symfony [info] {sfFilterChain} Executing filter "sfGuardRememberMeFilter"
+Oct 25 12:30:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 25 12:30:11 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignin()"
+Oct 25 12:30:11 symfony [info] {sfPHPView} Render "/var/www/portal-educacion/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/signinSuccess.php"
+Oct 25 12:30:11 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/_signin_form.php"
+Oct 25 12:30:11 symfony [info] {sfPHPView} Decorate content with "/var/www/portal-educacion/apps/frontend/templates/layout.php"
+Oct 25 12:30:11 symfony [info] {sfPHPView} Render "/var/www/portal-educacion/apps/frontend/templates/layout.php"
+Oct 25 12:30:11 symfony [info] {main} Get slot "title"
+Oct 25 12:30:11 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/apps/frontend/modules/home/templates/_partials/header.php"
+Oct 25 12:30:11 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/apps/frontend/modules/home/templates/_partials/nav.php"
+Oct 25 12:30:11 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/apps/frontend/modules/home/templates/_partials/footer.php"
+Oct 25 12:30:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 25 12:30:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 25 12:30:11 symfony [info] {sfWebDebugLogger} Configuration 0.66 ms (9)
+Oct 25 12:30:11 symfony [info] {sfWebDebugLogger} Factories 27.14 ms (1)
+Oct 25 12:30:11 symfony [info] {sfWebDebugLogger} Action "sfGuardAuth/signin" 5.96 ms (1)
+Oct 25 12:30:11 symfony [info] {sfWebDebugLogger} View "Success" for "sfGuardAuth/signin" 12.04 ms (1)
+Oct 25 12:30:11 symfony [info] {sfWebDebugLogger} Partial "sfGuardAuth/_signin_form" 1.76 ms (1)
+Oct 25 12:30:11 symfony [info] {sfWebDebugLogger} Partial "home/_partials/header" 0.23 ms (1)
+Oct 25 12:30:11 symfony [info] {sfWebDebugLogger} Partial "home/_partials/nav" 0.20 ms (1)
+Oct 25 12:30:11 symfony [info] {sfWebDebugLogger} Partial "home/_partials/footer" 0.19 ms (1)
+Oct 25 12:30:11 symfony [info] {sfWebResponse} Send content (45939 o)
+Oct 25 12:30:11 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Oct 25 12:30:11 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Oct 25 12:30:11 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Oct 25 12:30:11 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Oct 25 12:30:11 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Oct 25 12:30:11 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Oct 25 12:30:11 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Oct 25 12:30:11 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Oct 25 12:30:11 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Oct 25 12:30:11 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Oct 25 12:30:11 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Oct 25 12:30:11 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/bac-header-2.png" (/).
+Oct 25 12:30:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Oct 25 12:30:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 25 12:30:11 symfony [info] {sfWebDebugLogger} Configuration 0.30 ms (5)
+Oct 25 12:30:11 symfony [info] {sfWebDebugLogger} Factories 29.39 ms (1)
+Oct 25 12:30:58 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Oct 25 12:30:58 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Oct 25 12:30:58 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Oct 25 12:30:58 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Oct 25 12:30:58 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Oct 25 12:30:58 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Oct 25 12:30:58 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Oct 25 12:30:58 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Oct 25 12:30:58 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Oct 25 12:30:58 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Oct 25 12:30:58 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Oct 25 12:30:58 symfony [info] {sfPatternRouting} Match route "sf_guard_signin" (/login) for /login with parameters array (  'module' => 'sfGuardAuth',  'action' => 'signin',)
+Oct 25 12:30:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 25 12:30:58 symfony [info] {sfFilterChain} Executing filter "sfGuardRememberMeFilter"
+Oct 25 12:30:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 25 12:30:58 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignin()"
+Oct 25 12:30:58 symfony [info] {sfPHPView} Render "/var/www/portal-educacion/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/signinSuccess.php"
+Oct 25 12:30:58 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/_signin_form.php"
+Oct 25 12:30:58 symfony [info] {sfPHPView} Decorate content with "/var/www/portal-educacion/apps/frontend/templates/layout.php"
+Oct 25 12:30:58 symfony [info] {sfPHPView} Render "/var/www/portal-educacion/apps/frontend/templates/layout.php"
+Oct 25 12:30:58 symfony [info] {main} Get slot "title"
+Oct 25 12:30:58 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/apps/frontend/modules/home/templates/_partials/header.php"
+Oct 25 12:30:58 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/apps/frontend/modules/home/templates/_partials/nav.php"
+Oct 25 12:30:58 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/apps/frontend/modules/home/templates/_partials/footer.php"
+Oct 25 12:30:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 25 12:30:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 25 12:30:58 symfony [info] {sfWebDebugLogger} Configuration 0.72 ms (9)
+Oct 25 12:30:58 symfony [info] {sfWebDebugLogger} Factories 36.43 ms (1)
+Oct 25 12:30:58 symfony [info] {sfWebDebugLogger} Action "sfGuardAuth/signin" 15.96 ms (1)
+Oct 25 12:30:58 symfony [info] {sfWebDebugLogger} View "Success" for "sfGuardAuth/signin" 37.93 ms (1)
+Oct 25 12:30:58 symfony [info] {sfWebDebugLogger} Partial "sfGuardAuth/_signin_form" 14.80 ms (1)
+Oct 25 12:30:58 symfony [info] {sfWebDebugLogger} Partial "home/_partials/header" 0.21 ms (1)
+Oct 25 12:30:58 symfony [info] {sfWebDebugLogger} Partial "home/_partials/nav" 0.19 ms (1)
+Oct 25 12:30:58 symfony [info] {sfWebDebugLogger} Partial "home/_partials/footer" 0.18 ms (1)
+Oct 25 12:30:58 symfony [info] {sfWebResponse} Send content (46762 o)
+Oct 25 12:30:58 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Oct 25 12:30:58 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Oct 25 12:30:58 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Oct 25 12:30:58 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Oct 25 12:30:58 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Oct 25 12:30:58 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Oct 25 12:30:58 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Oct 25 12:30:58 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Oct 25 12:30:58 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Oct 25 12:30:58 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Oct 25 12:30:58 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Oct 25 12:30:58 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/bac-header-2.png" (/).
+Oct 25 12:30:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Oct 25 12:30:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 25 12:30:58 symfony [info] {sfWebDebugLogger} Configuration 0.48 ms (5)
+Oct 25 12:30:58 symfony [info] {sfWebDebugLogger} Factories 24.61 ms (1)
+Oct 25 12:32:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Oct 25 12:32:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Oct 25 12:32:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Oct 25 12:32:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Oct 25 12:32:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Oct 25 12:32:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Oct 25 12:32:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Oct 25 12:32:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Oct 25 12:32:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Oct 25 12:32:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Oct 25 12:32:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Oct 25 12:32:22 symfony [info] {sfPatternRouting} Match route "sf_guard_signin" (/login) for /login with parameters array (  'module' => 'sfGuardAuth',  'action' => 'signin',)
+Oct 25 12:32:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 25 12:32:22 symfony [info] {sfFilterChain} Executing filter "sfGuardRememberMeFilter"
+Oct 25 12:32:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 25 12:32:22 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignin()"
+Oct 25 12:32:22 symfony [info] {sfPHPView} Render "/var/www/portal-educacion/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/signinSuccess.php"
+Oct 25 12:32:22 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/_signin_form.php"
+Oct 25 12:32:22 symfony [info] {sfPHPView} Decorate content with "/var/www/portal-educacion/apps/frontend/templates/layout.php"
+Oct 25 12:32:22 symfony [info] {sfPHPView} Render "/var/www/portal-educacion/apps/frontend/templates/layout.php"
+Oct 25 12:32:22 symfony [info] {main} Get slot "title"
+Oct 25 12:32:22 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/apps/frontend/modules/home/templates/_partials/header.php"
+Oct 25 12:32:22 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/apps/frontend/modules/home/templates/_partials/nav.php"
+Oct 25 12:32:22 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/apps/frontend/modules/home/templates/_partials/footer.php"
+Oct 25 12:32:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 25 12:32:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 25 12:32:22 symfony [info] {sfWebDebugLogger} Configuration 0.73 ms (9)
+Oct 25 12:32:22 symfony [info] {sfWebDebugLogger} Factories 40.28 ms (1)
+Oct 25 12:32:22 symfony [info] {sfWebDebugLogger} Action "sfGuardAuth/signin" 4.00 ms (1)
+Oct 25 12:32:22 symfony [info] {sfWebDebugLogger} View "Success" for "sfGuardAuth/signin" 39.10 ms (1)
+Oct 25 12:32:22 symfony [info] {sfWebDebugLogger} Partial "sfGuardAuth/_signin_form" 33.53 ms (1)
+Oct 25 12:32:22 symfony [info] {sfWebDebugLogger} Partial "home/_partials/header" 0.20 ms (1)
+Oct 25 12:32:22 symfony [info] {sfWebDebugLogger} Partial "home/_partials/nav" 0.19 ms (1)
+Oct 25 12:32:22 symfony [info] {sfWebDebugLogger} Partial "home/_partials/footer" 0.19 ms (1)
+Oct 25 12:32:22 symfony [info] {sfWebResponse} Send content (46727 o)
+Oct 25 12:32:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Oct 25 12:32:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Oct 25 12:32:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Oct 25 12:32:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Oct 25 12:32:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Oct 25 12:32:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Oct 25 12:32:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Oct 25 12:32:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Oct 25 12:32:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Oct 25 12:32:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Oct 25 12:32:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Oct 25 12:32:22 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/bac-header-2.png" (/).
+Oct 25 12:32:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Oct 25 12:32:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 25 12:32:22 symfony [info] {sfWebDebugLogger} Configuration 0.27 ms (5)
+Oct 25 12:32:22 symfony [info] {sfWebDebugLogger} Factories 42.58 ms (1)
+Oct 25 12:32:41 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Oct 25 12:32:41 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Oct 25 12:32:41 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Oct 25 12:32:41 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Oct 25 12:32:41 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Oct 25 12:32:41 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Oct 25 12:32:41 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Oct 25 12:32:41 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Oct 25 12:32:41 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Oct 25 12:32:41 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Oct 25 12:32:41 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Oct 25 12:32:41 symfony [info] {sfPatternRouting} Match route "sf_guard_signin" (/login) for /login with parameters array (  'module' => 'sfGuardAuth',  'action' => 'signin',)
+Oct 25 12:32:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 25 12:32:41 symfony [info] {sfFilterChain} Executing filter "sfGuardRememberMeFilter"
+Oct 25 12:32:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 25 12:32:41 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignin()"
+Oct 25 12:32:41 symfony [info] {sfPHPView} Render "/var/www/portal-educacion/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/signinSuccess.php"
+Oct 25 12:32:41 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/_signin_form.php"
+Oct 25 12:32:41 symfony [info] {sfPHPView} Decorate content with "/var/www/portal-educacion/apps/frontend/templates/layout.php"
+Oct 25 12:32:41 symfony [info] {sfPHPView} Render "/var/www/portal-educacion/apps/frontend/templates/layout.php"
+Oct 25 12:32:41 symfony [info] {main} Get slot "title"
+Oct 25 12:32:41 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/apps/frontend/modules/home/templates/_partials/header.php"
+Oct 25 12:32:41 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/apps/frontend/modules/home/templates/_partials/nav.php"
+Oct 25 12:32:41 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/apps/frontend/modules/home/templates/_partials/footer.php"
+Oct 25 12:32:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 401 Unauthorized"
+Oct 25 12:32:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 25 12:32:41 symfony [info] {sfWebDebugLogger} Configuration 0.72 ms (9)
+Oct 25 12:32:41 symfony [info] {sfWebDebugLogger} Factories 52.11 ms (1)
+Oct 25 12:32:41 symfony [info] {sfWebDebugLogger} Action "sfGuardAuth/signin" 3.58 ms (1)
+Oct 25 12:32:41 symfony [info] {sfWebDebugLogger} View "Success" for "sfGuardAuth/signin" 18.38 ms (1)
+Oct 25 12:32:41 symfony [info] {sfWebDebugLogger} Partial "sfGuardAuth/_signin_form" 2.18 ms (1)
+Oct 25 12:32:41 symfony [info] {sfWebDebugLogger} Partial "home/_partials/header" 0.22 ms (1)
+Oct 25 12:32:41 symfony [info] {sfWebDebugLogger} Partial "home/_partials/nav" 0.22 ms (1)
+Oct 25 12:32:41 symfony [info] {sfWebDebugLogger} Partial "home/_partials/footer" 0.21 ms (1)
+Oct 25 12:32:41 symfony [info] {sfWebResponse} Send content (45517 o)
+Oct 25 12:32:41 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Oct 25 12:32:41 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Oct 25 12:32:41 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Oct 25 12:32:41 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Oct 25 12:32:41 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Oct 25 12:32:41 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Oct 25 12:32:41 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Oct 25 12:32:41 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Oct 25 12:32:41 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Oct 25 12:32:41 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Oct 25 12:32:41 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Oct 25 12:32:41 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/bac-header-2.png" (/).
+Oct 25 12:32:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Oct 25 12:32:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 25 12:32:41 symfony [info] {sfWebDebugLogger} Configuration 0.30 ms (5)
+Oct 25 12:32:41 symfony [info] {sfWebDebugLogger} Factories 23.99 ms (1)
+Oct 25 12:32:46 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Oct 25 12:32:46 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Oct 25 12:32:46 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Oct 25 12:32:46 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Oct 25 12:32:46 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Oct 25 12:32:46 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Oct 25 12:32:46 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Oct 25 12:32:46 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Oct 25 12:32:46 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Oct 25 12:32:46 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Oct 25 12:32:46 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Oct 25 12:32:46 symfony [info] {sfPatternRouting} Match route "sf_guard_signin" (/login) for /login with parameters array (  'module' => 'sfGuardAuth',  'action' => 'signin',)
+Oct 25 12:32:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 25 12:32:46 symfony [info] {sfFilterChain} Executing filter "sfGuardRememberMeFilter"
+Oct 25 12:32:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 25 12:32:46 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignin()"
+Oct 25 12:32:46 symfony [info] {sfPHPView} Render "/var/www/portal-educacion/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/signinSuccess.php"
+Oct 25 12:32:46 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/_signin_form.php"
+Oct 25 12:32:46 symfony [info] {sfPHPView} Decorate content with "/var/www/portal-educacion/apps/frontend/templates/layout.php"
+Oct 25 12:32:46 symfony [info] {sfPHPView} Render "/var/www/portal-educacion/apps/frontend/templates/layout.php"
+Oct 25 12:32:46 symfony [info] {main} Get slot "title"
+Oct 25 12:32:46 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/apps/frontend/modules/home/templates/_partials/header.php"
+Oct 25 12:32:46 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/apps/frontend/modules/home/templates/_partials/nav.php"
+Oct 25 12:32:46 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/apps/frontend/modules/home/templates/_partials/footer.php"
+Oct 25 12:32:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 25 12:32:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 25 12:32:46 symfony [info] {sfWebDebugLogger} Configuration 11.86 ms (9)
+Oct 25 12:32:46 symfony [info] {sfWebDebugLogger} Factories 42.18 ms (1)
+Oct 25 12:32:46 symfony [info] {sfWebDebugLogger} Action "sfGuardAuth/signin" 3.92 ms (1)
+Oct 25 12:32:46 symfony [info] {sfWebDebugLogger} View "Success" for "sfGuardAuth/signin" 18.33 ms (1)
+Oct 25 12:32:46 symfony [info] {sfWebDebugLogger} Partial "sfGuardAuth/_signin_form" 12.53 ms (1)
+Oct 25 12:32:46 symfony [info] {sfWebDebugLogger} Partial "home/_partials/header" 0.22 ms (1)
+Oct 25 12:32:46 symfony [info] {sfWebDebugLogger} Partial "home/_partials/nav" 0.20 ms (1)
+Oct 25 12:32:46 symfony [info] {sfWebDebugLogger} Partial "home/_partials/footer" 0.20 ms (1)
+Oct 25 12:32:46 symfony [info] {sfWebResponse} Send content (46707 o)
+Oct 25 12:32:46 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Oct 25 12:32:46 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Oct 25 12:32:46 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Oct 25 12:32:46 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Oct 25 12:32:46 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Oct 25 12:32:46 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Oct 25 12:32:46 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Oct 25 12:32:46 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Oct 25 12:32:46 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Oct 25 12:32:46 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Oct 25 12:32:46 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Oct 25 12:32:46 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/bac-header-2.png" (/).
+Oct 25 12:32:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Oct 25 12:32:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 25 12:32:46 symfony [info] {sfWebDebugLogger} Configuration 0.27 ms (5)
+Oct 25 12:32:46 symfony [info] {sfWebDebugLogger} Factories 26.76 ms (1)
+Oct 25 12:33:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Oct 25 12:33:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Oct 25 12:33:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Oct 25 12:33:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Oct 25 12:33:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Oct 25 12:33:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Oct 25 12:33:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Oct 25 12:33:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Oct 25 12:33:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Oct 25 12:33:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Oct 25 12:33:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Oct 25 12:33:22 symfony [info] {sfPatternRouting} Match route "sf_guard_signin" (/login) for /login with parameters array (  'module' => 'sfGuardAuth',  'action' => 'signin',)
+Oct 25 12:33:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 25 12:33:22 symfony [info] {sfFilterChain} Executing filter "sfGuardRememberMeFilter"
+Oct 25 12:33:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 25 12:33:22 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignin()"
+Oct 25 12:33:22 symfony [info] {sfPHPView} Render "/var/www/portal-educacion/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/signinSuccess.php"
+Oct 25 12:33:22 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/_signin_form.php"
+Oct 25 12:33:22 symfony [info] {sfPHPView} Decorate content with "/var/www/portal-educacion/apps/frontend/templates/layout.php"
+Oct 25 12:33:22 symfony [info] {sfPHPView} Render "/var/www/portal-educacion/apps/frontend/templates/layout.php"
+Oct 25 12:33:22 symfony [info] {main} Get slot "title"
+Oct 25 12:33:22 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/apps/frontend/modules/home/templates/_partials/header.php"
+Oct 25 12:33:22 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/apps/frontend/modules/home/templates/_partials/nav.php"
+Oct 25 12:33:22 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/apps/frontend/modules/home/templates/_partials/footer.php"
+Oct 25 12:33:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 401 Unauthorized"
+Oct 25 12:33:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 25 12:33:22 symfony [info] {sfWebDebugLogger} Configuration 10.88 ms (9)
+Oct 25 12:33:22 symfony [info] {sfWebDebugLogger} Factories 37.42 ms (1)
+Oct 25 12:33:22 symfony [info] {sfWebDebugLogger} Action "sfGuardAuth/signin" 3.60 ms (1)
+Oct 25 12:33:22 symfony [info] {sfWebDebugLogger} View "Success" for "sfGuardAuth/signin" 18.71 ms (1)
+Oct 25 12:33:22 symfony [info] {sfWebDebugLogger} Partial "sfGuardAuth/_signin_form" 12.39 ms (1)
+Oct 25 12:33:22 symfony [info] {sfWebDebugLogger} Partial "home/_partials/header" 0.26 ms (1)
+Oct 25 12:33:22 symfony [info] {sfWebDebugLogger} Partial "home/_partials/nav" 0.24 ms (1)
+Oct 25 12:33:22 symfony [info] {sfWebDebugLogger} Partial "home/_partials/footer" 0.22 ms (1)
+Oct 25 12:33:22 symfony [info] {sfWebResponse} Send content (45175 o)
+Oct 25 12:33:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Oct 25 12:33:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Oct 25 12:33:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Oct 25 12:33:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Oct 25 12:33:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Oct 25 12:33:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Oct 25 12:33:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Oct 25 12:33:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Oct 25 12:33:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Oct 25 12:33:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Oct 25 12:33:22 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Oct 25 12:33:22 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/bac-header-2.png" (/).
+Oct 25 12:33:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Oct 25 12:33:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 25 12:33:22 symfony [info] {sfWebDebugLogger} Configuration 0.30 ms (5)
+Oct 25 12:33:22 symfony [info] {sfWebDebugLogger} Factories 28.15 ms (1)
+Oct 25 12:33:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Oct 25 12:33:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Oct 25 12:33:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Oct 25 12:33:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Oct 25 12:33:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Oct 25 12:33:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Oct 25 12:33:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Oct 25 12:33:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Oct 25 12:33:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Oct 25 12:33:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Oct 25 12:33:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Oct 25 12:33:27 symfony [info] {sfPatternRouting} Match route "sf_guard_signin" (/login) for /login with parameters array (  'module' => 'sfGuardAuth',  'action' => 'signin',)
+Oct 25 12:33:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 25 12:33:27 symfony [info] {sfFilterChain} Executing filter "sfGuardRememberMeFilter"
+Oct 25 12:33:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 25 12:33:27 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignin()"
+Oct 25 12:33:27 symfony [info] {sfPHPView} Render "/var/www/portal-educacion/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/signinSuccess.php"
+Oct 25 12:33:27 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/_signin_form.php"
+Oct 25 12:33:27 symfony [info] {sfPHPView} Decorate content with "/var/www/portal-educacion/apps/frontend/templates/layout.php"
+Oct 25 12:33:27 symfony [info] {sfPHPView} Render "/var/www/portal-educacion/apps/frontend/templates/layout.php"
+Oct 25 12:33:27 symfony [info] {main} Get slot "title"
+Oct 25 12:33:27 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/apps/frontend/modules/home/templates/_partials/header.php"
+Oct 25 12:33:27 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/apps/frontend/modules/home/templates/_partials/nav.php"
+Oct 25 12:33:27 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/apps/frontend/modules/home/templates/_partials/footer.php"
+Oct 25 12:33:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 25 12:33:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 25 12:33:27 symfony [info] {sfWebDebugLogger} Configuration 0.75 ms (9)
+Oct 25 12:33:27 symfony [info] {sfWebDebugLogger} Factories 42.81 ms (1)
+Oct 25 12:33:27 symfony [info] {sfWebDebugLogger} Action "sfGuardAuth/signin" 4.16 ms (1)
+Oct 25 12:33:27 symfony [info] {sfWebDebugLogger} View "Success" for "sfGuardAuth/signin" 22.03 ms (1)
+Oct 25 12:33:27 symfony [info] {sfWebDebugLogger} Partial "sfGuardAuth/_signin_form" 2.04 ms (1)
+Oct 25 12:33:27 symfony [info] {sfWebDebugLogger} Partial "home/_partials/header" 0.23 ms (1)
+Oct 25 12:33:27 symfony [info] {sfWebDebugLogger} Partial "home/_partials/nav" 0.22 ms (1)
+Oct 25 12:33:27 symfony [info] {sfWebDebugLogger} Partial "home/_partials/footer" 0.23 ms (1)
+Oct 25 12:33:27 symfony [info] {sfWebResponse} Send content (46211 o)
+Oct 25 12:33:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Oct 25 12:33:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Oct 25 12:33:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Oct 25 12:33:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Oct 25 12:33:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Oct 25 12:33:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Oct 25 12:33:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Oct 25 12:33:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Oct 25 12:33:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Oct 25 12:33:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Oct 25 12:33:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Oct 25 12:33:27 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/bac-header-2.png" (/).
+Oct 25 12:33:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Oct 25 12:33:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 25 12:33:27 symfony [info] {sfWebDebugLogger} Configuration 0.28 ms (5)
+Oct 25 12:33:27 symfony [info] {sfWebDebugLogger} Factories 32.64 ms (1)
+Oct 26 10:55:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Oct 26 10:55:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Oct 26 10:55:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Oct 26 10:55:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Oct 26 10:55:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Oct 26 10:55:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Oct 26 10:55:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Oct 26 10:55:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Oct 26 10:55:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Oct 26 10:55:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Oct 26 10:55:24 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Oct 26 10:55:24 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Oct 26 10:55:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 26 10:55:24 symfony [info] {sfFilterChain} Executing filter "sfGuardRememberMeFilter"
+Oct 26 10:55:24 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Oct 26 10:55:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 26 10:55:24 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Oct 26 10:55:24 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 26 10:55:24 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.cat_nombre AS c__cat_nombre, c.cat_posicion AS c__cat_posicion FROM categorias c - ()
+Oct 26 10:55:24 symfony [info] {Doctrine_Connection_Mysql} query : SELECT b.id AS b__id, b.btn_nombre AS b__btn_nombre, b.btn_link AS b__btn_link, b.btn_imagen AS b__btn_imagen, b.btn_activo AS b__btn_activo, b.btn_cat_id AS b__btn_cat_id FROM botones b - ()
+Oct 26 10:55:24 symfony [info] {sfPHPView} Render "/var/www/portal-educacion/apps/frontend/modules/home/templates/indexSuccess.php"
+Oct 26 10:55:24 symfony [info] {sfPHPView} Decorate content with "/var/www/portal-educacion/apps/frontend/templates/layout.php"
+Oct 26 10:55:24 symfony [info] {sfPHPView} Render "/var/www/portal-educacion/apps/frontend/templates/layout.php"
+Oct 26 10:55:24 symfony [info] {main} Get slot "title"
+Oct 26 10:55:24 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/apps/frontend/modules/home/templates/_partials/header.php"
+Oct 26 10:55:24 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/apps/frontend/modules/home/templates/_partials/nav.php"
+Oct 26 10:55:24 symfony [info] {sfPartialView} Render "/var/www/portal-educacion/apps/frontend/modules/home/templates/_partials/footer.php"
+Oct 26 10:55:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 26 10:55:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 26 10:55:24 symfony [info] {sfWebDebugLogger} Configuration 114.55 ms (9)
+Oct 26 10:55:24 symfony [info] {sfWebDebugLogger} Factories 172.77 ms (1)
+Oct 26 10:55:24 symfony [info] {sfWebDebugLogger} Action "home/index" 20.24 ms (1)
+Oct 26 10:55:24 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.32 ms (3)
+Oct 26 10:55:24 symfony [info] {sfWebDebugLogger} View "Success" for "home/index" 14.36 ms (1)
+Oct 26 10:55:24 symfony [info] {sfWebDebugLogger} Partial "home/_partials/header" 0.33 ms (1)
+Oct 26 10:55:24 symfony [info] {sfWebDebugLogger} Partial "home/_partials/nav" 0.31 ms (1)
+Oct 26 10:55:24 symfony [info] {sfWebDebugLogger} Partial "home/_partials/footer" 0.31 ms (1)
+Oct 26 10:55:24 symfony [info] {sfWebResponse} Send content (55560 o)
