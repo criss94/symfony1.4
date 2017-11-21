@@ -1,0 +1,3 @@
+<td colspan="5">
+  <?php echo __('%%id%% - %%name%% - %%description%% - %%created_at%% - %%updated_at%%', array('%%id%%' => link_to($sf_guard_permission->getId(), 'sf_guard_permission_edit', $sf_guard_permission), '%%name%%' => $sf_guard_permission->getName(), '%%description%%' => $sf_guard_permission->getDescription(), '%%created_at%%' => false !== strtotime($sf_guard_permission->getCreatedAt()) ? format_date($sf_guard_permission->getCreatedAt(), "f") : '&nbsp;', '%%updated_at%%' => false !== strtotime($sf_guard_permission->getUpdatedAt()) ? format_date($sf_guard_permission->getUpdatedAt(), "f") : '&nbsp;'), 'messages') ?>
+</td>
